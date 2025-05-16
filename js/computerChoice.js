@@ -12,4 +12,3 @@ function getComputerChoice(max) {
   }
 }
 
-console.log(getComputerChoice(3));
