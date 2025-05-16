@@ -11,4 +11,3 @@ function getComputerChoice(max) {
     return computerChoice = "Scissor";
   }
 }
-
