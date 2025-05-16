@@ -1,4 +1,4 @@
-let humanChoice = prompt("Let\'s play Rock, Paper, & Scissors! \n\nThis is a best of 5 series. \n\nWhoever scores 3 first between you or the computer will win! \n\nPlease enter 'rock', 'paper', or 'scissor', your choice!");
+let humanChoice = prompt("Let\'s play Rock, Paper, & Scissors! \n\nThis is a best of 5 series. \n\nWhoever scores 3 first between you or the computer will win! \n\nPlease enter 'rock', 'paper', or 'scissor', your choice!\n\n Good luck!");
 humanChoice = humanChoice.toLowerCase();
 
 function getHumanChoice(humanChoice){
@@ -10,7 +10,7 @@ function getHumanChoice(humanChoice){
     else if (humanChoice === "scissor"){
         return humanChoice;
     } else {
-        let humanChoice = prompt("Let\'s play Rock, Paper, & Scissors! \n\nThis is a best of 5 series. \n\nWhoever scores 3 first between you or the computer will win! \n\nPlease enter 'rock', 'paper', or 'scissor', your choice!");
+        let humanChoice = prompt("Let\'s play Rock, Paper, & Scissors! \n\nThis is a best of 5 series. \n\nWhoever scores 3 first between you or the computer will win! \n\nPlease enter 'rock', 'paper', or 'scissor', your choice! \n\n Good luck!");
         humanChoice = humanChoice.toLowerCase();
         getHumanChoice(humanChoice);
     }
