@@ -74,7 +74,7 @@ function playround(humanSelection, computerSelection){
         console.log("Human: " + humanScore + "\n");
         console.log("Computer: " + computerScore + "\n");
     } else {
-        let humanChoice = prompt("Let\'s play Rock, Paper, & Scissor! \n\nThis is a best of 5 series. \n\nWhoever scores 3 first between you or the computer will win! \n\nPlease enter 'rock', 'paper', or 'scissor', your choice! \n\n Good luck!");
+        let humanChoice = prompt("Let\'s play Rock, Paper, & Scissor! \n\nThis is a best of 5 series. \n\nWhoever scores more after 5 rounds between you or the computer will win! \n\nPlease enter 'rock', 'paper', or 'scissor', your choice! \n\n Good luck!");
         humanChoice = humanChoice.toLowerCase();
         //getHumanChoice(humanChoice);
 
