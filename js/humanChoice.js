@@ -1,20 +1,10 @@
-let humanChoice = prompt("Let\'s play Rock, Paper, & Scissors! \n\nThis is a best of 5 series. \n\nWhoever scores 3 first between you or the computer will win! \n\nPlease enter 'rock', 'paper', or 'scissor', your choice!\n\n Good luck!");
-humanChoice = humanChoice.toLowerCase();
 
 function getHumanChoice(humanChoice){
     if(humanChoice === "rock"){
-        return humanChoice;
+        return humanChoice = "rock";
     } else if (humanChoice === "paper"){
-        return humanChoice;
+        return humanChoice = "paper";
     }
-    else if (humanChoice === "scissor"){
-        return humanChoice;
-    } else {
-        let humanChoice = prompt("Let\'s play Rock, Paper, & Scissors! \n\nThis is a best of 5 series. \n\nWhoever scores 3 first between you or the computer will win! \n\nPlease enter 'rock', 'paper', or 'scissor', your choice! \n\n Good luck!");
-        humanChoice = humanChoice.toLowerCase();
-        getHumanChoice(humanChoice);
-    }
+    else 
+        return humanChoice = "scissor";
 }
-
-console.log(getHumanChoice(humanChoice));
-console.log(getComputerChoice(3));
